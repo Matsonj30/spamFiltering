@@ -38,3 +38,15 @@ def writeProbabilityFiles(spamWordOccurance, spamWordCount, hamWordOccurance, ha
     for word in spamWordOccurance:
         keyValue = spamWordOccurance.get(word)
         wordProbability = keyValue/spamWordCount
+        fileSpam.write(str(word) + ":      ")
+        fileSpam.write(str(wordProbability)+"\n")
+    fileSpam.close()
+
+    
+    for word in hamWordOccurance:
+        keyValue = hamWordOccurance.get(word)
+        wordProbability = keyValue/hamWordCount
+        fileHam.write(str(word) + ":      ")
+        fileHam.write(str(wordProbability)+"\n")
+    fileHam.close()
+probWords()
