@@ -81,7 +81,7 @@ P('jani'|Spam) = 1.1803309648025306e-05
 P('jani'|Spam) = 1.1803309648025306e-05
 P('@'|Spam) = 0.0010194545917933905
 P('purccvm'|Spam) = 1.1803309648025306e-05
-log P(Spam, all words) = -294.4489100613041
+log P(Spam, all words) = -294.44891006
 
 
 (2) P(Ham, all words)
@@ -167,7 +167,7 @@ P('jani'|Ham) = 1.1803309648025306e-05
 P('jani'|Ham) = 1.1803309648025306e-05
 P('@'|Ham) = 0.002598888525661981
 P('purccvm'|Ham) = 1.1803309648025306e-05
-log P(Ham, all words) = -254.68063238130281
+log P(Ham, all words) = -254.68063238
 
 
 

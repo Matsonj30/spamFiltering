@@ -136,7 +136,7 @@ P('judgements'|Spam) = 1.1803309648025306e-05
 P('.'|Spam) = 0.08032452637838756
 P('richard'|Spam) = 4.247727465805794e-05
 P('ingham'|Spam) = 1.1803309648025306e-05
-log P(Spam, all words) = -463.9107394980801
+log P(Spam, all words) = -463.9107395
 
 
 (2) P(Ham, all words)
@@ -277,7 +277,7 @@ P('judgements'|Ham) = 1.1803309648025306e-05
 P('.'|Ham) = 0.07358613926119648
 P('richard'|Ham) = 0.00014710689767898007
 P('ingham'|Ham) = 3.269042170644001e-05
-log P(Ham, all words) = -415.0205308824599
+log P(Ham, all words) = -415.02053088
 
 
 

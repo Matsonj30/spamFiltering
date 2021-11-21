@@ -16,7 +16,7 @@ P(''s'|Spam) = 0.0026760683034576503
 P('minimalist'|Spam) = 1.1803309648025306e-05
 P('paper'|Spam) = 0.00038229547192252146
 P('?'|Spam) = 0.0028459774020898818
-log P(Spam, all words) = -66.77143782570145
+log P(Spam, all words) = -66.77143783
 
 
 (2) P(Ham, all words)
@@ -37,7 +37,7 @@ P(''s'|Ham) = 0.004985289310232102
 P('minimalist'|Ham) = 4.903563255966002e-05
 P('paper'|Ham) = 0.0007682249101013403
 P('?'|Ham) = 0.004118993135011442
-log P(Ham, all words) = -53.60611936231112
+log P(Ham, all words) = -53.60611936
 
 
 

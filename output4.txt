@@ -125,7 +125,7 @@ P('moulton'|Spam) = 1.1803309648025306e-05
 P('kiparsky'|Spam) = 1.1803309648025306e-05
 P(')'|Spam) = 0.004714977487044431
 P('.'|Spam) = 0.08032452637838756
-log P(Spam, all words) = -401.0867227833726
+log P(Spam, all words) = -401.08672278
 
 
 (2) P(Ham, all words)
@@ -255,7 +255,7 @@ P('moulton'|Ham) = 1.1803309648025306e-05
 P('kiparsky'|Ham) = 1.1803309648025306e-05
 P(')'|Ham) = 0.018976789800588426
 P('.'|Ham) = 0.07358613926119648
-log P(Ham, all words) = -363.3390418736542
+log P(Ham, all words) = -363.33904187
 
 
 
